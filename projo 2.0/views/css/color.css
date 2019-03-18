@@ -1,0 +1,76 @@
+/* personnal code */
+em{
+	color: lightgrey;
+}
+body{
+
+	background-color: #665847;
+}
+
+section {
+	background-color: #3D362D;
+	color: #FF9900;
+	padding: 10px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	background-color: #3D362D;
+	color: #FF9900;
+}
+
+span{
+	color: pink;
+}
+
+p{
+	margin: 10px;
+}
+
+/* General color */
+a {
+	color: #FF9900;;
+}
+a:hover, a:focus {
+	color: #FF9900;;
+}
+
+.footer{
+	background-color: #3D362D;
+	color: #FF9900;
+}
+
+.header{
+	background-color: #3D362D;
+	color: #FF9900;
+}
+
+.admin{
+	background-color: lightblue;
+}
+
+.coach{
+	background-color: red;
+	color: white;
+}
+
+.webdevelopper{
+	background-color: #FF9900;
+	color: #FEFFFD;
+	text-align: center;
+	margin: 10px;
+	padding: 10px;
+}
+.note{
+	background-color: #FF9900;
+	color: #FF0000;
+	text-align: center;
+	margin: 10px;
+	padding: 10px;
+}
+.centered{
+	text-align: center;
+}
+/*#3D362D - Dark Brown
+#FEFFFD - White
+#665847 - Light Brown
+#FF9900 - Orange */ 

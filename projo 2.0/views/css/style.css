@@ -1,0 +1,119 @@
+/* Page */
+html {
+	position: relative;
+	min-height: 100%;
+	font-size: 100%; 
+}
+body { 
+	font-family: Verdana, "Bitstream Vera Sans", "Lucida Grande", sans-serif; 
+	font-size: .8em; 
+	line-height: 1.25; 
+	color: black;
+	background: white;
+	width: 100%;
+	margin: 0 0 100px;
+    /* bottom = footer height */
+    position: relative;
+    top: 50px;
+    bottom: 100px;
+    z-index: 5;
+}
+
+header{
+	position: -webkit-sticky; /* Safari */
+	position: sticky;
+	margin-top: -10px;
+	height: 22px;
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	overflow: hidden;
+	padding: 20px;
+	background-color: #3D362D;
+	z-index: 10;
+}
+
+footer{
+	position: -webkit-sticky; /* Safari */
+	text-align: center;
+	margin-top: 10px;
+	padding: 0px;
+	position: fixed;
+    left: 0;
+    bottom: 0;
+    height: 16px;
+    width: 100%;
+    overflow: hidden;
+    padding: 10px;
+    background-color: #3D362D;
+    z-index: 10;
+}
+
+
+/* Titles */
+h1, h2, h3, h4, h5, h6 {
+	margin: 1em 0 .5em 0; 
+}
+h1, h2 {
+	font-family: Georgia, "Bitstream Vera Serif", Norasi, serif;
+	font-weight: normal; 
+}
+h1 {
+	font-size: 3em; 
+	font-style: italic;
+}
+h2 {font-size: 1.8em;}
+h3 {font-size: 1.2em;}
+h4 {font-size: 1em;}
+
+/* Lists */
+ul, ol {
+	margin: .75em 0 .75em 24px;
+	padding: 0; 
+}
+ul {
+	list-style: square;
+}
+li {
+	margin: 0;
+	padding: 0;
+}
+
+/* Links */
+a {
+	color: mediumblue;
+	text-decoration: underline;
+}
+a:hover, a:focus {
+	color: crimson;
+}
+a img {
+	border: none; /* -> 10 */
+}
+
+.informative{
+	position: absolute;
+	left: 20px;
+	top: 100px;
+	width: 60%;
+	border: 2px solid black;
+	padding: 10px;
+}
+
+.contacts{
+	position: absolute;
+	right: 20px;
+	top: 550px;
+	width: 33%;
+	border: 2px solid black;
+	padding: 10px;
+}
+
+.topright{
+	top: 100px;
+	right: 100px;
+	float: right;
+	width: 30%;
+	height: 30%;
+}

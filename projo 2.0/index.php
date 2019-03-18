@@ -21,7 +21,7 @@ require_once(VIEWS.'header.php');
 $action = (isset($_GET['action'])) ? htmlentities($_GET['action']) : 'default'; 
 switch($action){
 	#managing users before going into HUB
-	case 'home' :
+	case 'homepage' :
 		require_once(CONTROLLERS.'HomeController.php');
 		$controller = new homeController();
 	break;
@@ -40,7 +40,6 @@ switch($action){
 		require_once(CONTROLLERS.'LogoutController.php');
 		$controller = new LogoutController();
 	break;	
-	#HUB access and contents
 
 	case 'profil' :
 		require_once(CONTROLLERS.'ProfilController.php');
@@ -51,17 +50,15 @@ switch($action){
 		require_once(CONTROLLERS.'MembersController.php');
 		$controller = new membersController();
 	break;
-	#default step
+	
 	default : 
-		require_once(CONTROLLERS.'HomeController.php');
-		$controller = new homeController();
+		require_once(CONTROLLERS.'HomepageController.php');
+		$controller = new homepageController();
 	break;
 }
 
-#function RUN on CONTROLLER
 $controller->run();
 
-#require FOOTER
 require_once(VIEWS.'footer.php');
 
 ?>

@@ -16,7 +16,7 @@ class LoginController{
 		#kicking out authentified USER
 		if(!empty($_SESSION['authentified'])){
 			
-			header('location: index.php?action=hub');
+			header('location: index.php?action=home');
 			die();
 		}
 

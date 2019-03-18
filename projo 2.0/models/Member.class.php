@@ -11,7 +11,7 @@ class Member{
 	public $state;
 	public $pswd;
 
-	public function __construct($memberid, $name, $lastname, $mail, $rights, $state, $pswd){
+	public function __construct($memberid, $name, $lastname, $mail, $state, $rights, $pswd){
 
 		$this->memberid = $memberid;
 		$this->name = $name;
